@@ -2,7 +2,6 @@ theme = "monokai"
 
 [editor]
 # line-number = "relative"
-mouse = false
 true-color = true
 rulers = [120]
 bufferline = "multiple"

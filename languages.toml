@@ -1,0 +1,7 @@
+use-grammars = {only = ["rust", "python", "c", "cpp", "bash", "fish", "css", "astro", "docker", "cmake", "dart", "go", "html", "haskell", "javascript", "typescript", "json", "kotlin", "ocaml", "perl", "toml", "vue", "yaml"]}
+
+[[language]]
+name = "python"
+[language.formatter]
+command = "black"
+args = ["--line-length", "88", "--quiet", "-"]

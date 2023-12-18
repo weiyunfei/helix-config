@@ -9,3 +9,5 @@ args = ["--line-length", "88", "--quiet", "-"]
 [language-server.rust-analyzer.config]
 inlayHints.typeHints.enable = true
 inlayHints.parameterHints.enable = true
+inlayHints.closureCaptureHints.enable = true
+check = { command = "clippy" }

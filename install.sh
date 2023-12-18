@@ -1,5 +1,5 @@
 #!/bin/bash
-helix_dir="~/.confg/helix/"
+helix_dir="~/.config/helix/"
 
 if [ ! -d "$helix_dir"]; then
   mkdir "$helix_dir"
